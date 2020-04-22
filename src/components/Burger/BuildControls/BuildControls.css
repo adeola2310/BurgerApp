@@ -1,0 +1,11 @@
+.card{
+    border-radius: 5px;
+    width: 80%;
+}
+.BuildControl{
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background-color: #7f3608;
+}
