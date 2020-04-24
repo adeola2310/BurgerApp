@@ -1,11 +1,24 @@
-.card{
+.BuildControls{
     border-radius: 5px;
-    width: 80%;
+    width: 60%;
+    margin: auto;
+    border: 2px solid #f2f2f2;
+    box-shadow: 0 2px 1px #bdbdbd;
 }
-.BuildControl{
-    padding: 15px 20px;
+/*.BuildControls{*/
+/*    padding: 15px 20px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    flex-flow: column;*/
+/*    background-color: #7f3608;*/
+/*}*/
+.order{
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-flow: column;
     background-color: #7f3608;
+    padding: 10px 15px;
+    margin: auto;
+    border: none;
+    outline: none;
 }
