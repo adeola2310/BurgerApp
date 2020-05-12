@@ -5,14 +5,13 @@ import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
 function App() {
   return (
     <div>
-        <Layout>
+        <Layout/>
 
             <BurgerBuilder/>
 
 
 
 
-        </Layout>
 
     </div>
   );

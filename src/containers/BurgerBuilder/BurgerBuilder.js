@@ -110,7 +110,7 @@ class BurgerBuilder extends Component {
     }
 }
 
-
+// this recieves the state and defunes wch ppty should hold which
 const mapStateToProps = state => {
     return {
         ing: state.ingredients,
@@ -125,5 +125,5 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-
+//note if there is no matchState to props, set it as null in the connect export cos it comes first
 export default connect(mapStateToProps, mapDispatchToProps)(BurgerBuilder);
